@@ -29,7 +29,7 @@ Return value: True if all numbers in the given range are in "lst"
 def check_counter(threshold, m, lst):
     return len(lst) == m - threshold + 1
 
-# Ex: (4,7)
+# Ex: (5, 6), (4, 7), (3, 8), (2,9)
 # It suffices to check 1.666*10^6 can be written as sums of at most 4 icosahedral numbers
 # and 2 dodecahedral numbers.
 
