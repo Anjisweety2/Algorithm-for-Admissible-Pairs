@@ -74,10 +74,3 @@ def check_counterexample(icos_list, dodes_list, threshold, m):
             break
     if (not counter):
         print("no counterexamples")
-
-
-# sample: (5,6)
-icos = sum_of_icosahedrals(80309, 32, 5) # a list of positive integers less than or equal to 80309 that can be written as a sum of at most 5 icosahedral numbers
-dodes = sum_of_dodecahedrals(80309, 26, 1) #a list of positive integers less than or equal to 80309 that can be written as a sum of at most 5 dodecahedral numbers
-check_counterexample(icos, dodes, 10000, 80309) 
-# expected value: "no counterexamples".
