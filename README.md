@@ -1,6 +1,6 @@
 # Algorithm-for-Admissible-Pairs
 
-In the main branch, there are a Algorithm I.py file and a folder named "Algorithm II".
+In the main branch, there is a Algorithm I.py file and a folder named "Algorithm II".
 
 The Algorithm I.py file is used to check that Conjecture 1.1 is true for the first 12000 positive integers.
 
